@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav.css">
+    <title>Navigation</title>
+</head>
+<body>
+    <header>My Webpage</header>
+    <div class="dropdown">
+    <button class="dropdown-button" id="menuButton">Menu &#9662;</button>
+    <ul class="dropdown-menu"  id="menuList">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+    </div>
+    <script>
+  const button = document.getElementById("menuButton");
+  const menu = document.getElementById("menuList");
+
+  // Open or close the menu when the button is clicked
+  button.addEventListener("click", function (event) {
+    event.stopPropagation();
+    menu.classList.toggle("show");
+  });
+
+  // Close the menu when clicking anywhere else on the page
+  document.addEventListener("click", function () {
+    menu.classList.remove("show");
+  });
+</script>
+    <main>
+        <h1>Responsive Website</h1>
+        <aritcle>
+            <section>
+            <h2>Surveys</h2>
+            <p>Survey is designed by a researcher and is made of questions that you need to answer. The answers you provide will be used by the researcher to understand how customers use their products or services. It can also be used to improve services. </p>
+            <p>Nigerians survey programs does not pay and companies in Nigeria hates paying for surveys. So, participating in surveys in other countries like USA can make you rich. </p>
+            <p>I noticed a lot of Nigerians participating in survey programs to earn money have no knowledge about answering survey questions in other countries. </p>
+            <p>There are many survey programs I reviewed and they all need you to be smart before you can earn from them. Not extremely smart but a how-to tutorial will definitely show you the way. </p>
+            <p>Since you registered as another country or probably, USA on the survey app/site, you have to behave like a citizen of that country. </p>
+            <p>Make sure you are on VPN, or on any tool that hides your identity or change your identity to the other country you are trying to imitate. </p>
+            <p>After that, some pre-qualification surveys may come out first which will verify if you match the audience the researchers need to answer that survey and note that, any mistake can get you disqualified or screened out. You’ll definitely get a lot of disqualifications but please don’t let that weigh you down. </p>
+            </section>
+            <section>
+                <h2>Some Tactical Questions You Will Encounter. </h2>
+                <p>Question 1: If you are asked, “DO YOU OR ANY MEMBER WORK IN ANY OF THE FOLLOWING?”, kindly choose “NONE OF THE ABOVE” because the options will be Advertising, Marketing and Media. If there is no “none of the above”, choose Education or Insurance. You know why? They will think you want to cast or publish the research. If you choose other answers, you will be disqualified from the survey. </p>
+                <p>Question 2: Assuming you are asked “Which item did you buy within 6 – 12 months ago?”, kindly choose all items in the options. If you choose NONE OF THE ABOVE, or you tick four to 5 items, you will be disqualified because you don’t know the ones they actually need. </p>
+                <p>Question 3: Do not rush to answer all survey questions because during the survey, they may ask you to select a particular answer, for example “STRONGLY AGREE” or “COLOUR BLUE”. If you select other options, you’ll be disqualified. </p>
+                <p>Question 4: Be smart! You must be a good liar. Assuming you are asked, “do you smoke?” Choose YES because they need people who smokes. </p>
+                <p>Or </p>
+                <p>If you asked, “do you suffer from below diseases?” Select few because questions may come out from any of them. </p>
+            </section>
+            <section>
+                <h2>SURVEY Q&A's FOR BEGINNERS AND AMATEURS </h2>
+                <p>So literally talking about surveys generally, you'll always have a profile survey to fill or let me say pre-qualification question to check if you qualify as a new user. I'll guide on how to go about it now. </p>
+                <p>So, I'll be writing out question that are always ask and how to answer then generally. </p>
+                <h3>COMMON QUESTIONS ASKED & ANSWERS </h3>
+                <table><caption>PERSONAL PROFILE</caption>
+                <tr>
+                    <th>1.Age?</th>
+                </tr>
+                <tr>
+                    <td>= 25,26,30, 35, 40, 45, </td>
+                </tr>
+
+                <tr>
+                    <th>2.Zip code? </th>
+                </tr>
+                <tr>
+                    <td>= Google the zip code for the country/state you used and input it (Usually 5-6 digits) </td>
+                </tr>
+
+                <tr>
+                    <th>3.Gender?</th>
+                </tr>
+                <tr>
+                    <td>= Male/Female (Depends) </td>
+                </tr>
+
+                <tr>
+                    <th>4.Ethnicity?</th>
+                </tr>
+                <tr>
+                    <td>= Black/British</td>
+                </tr>
+
+                <tr>
+                    <th>5.Are you Hispanic/Latino/Spanish? </th>
+                </tr>
+                <tr>
+                    <td>=No</td>
+                </tr>
+
+                <tr>
+                    <th>6.Marital status? </th>
+                </tr>
+                <tr>
+                    <td>=Married</td>
+                </tr>
+
+                <tr>
+                    <th>7.Children? </th>
+                </tr>
+                <tr>
+                    <tr><td>Yes 2 children (remember it) always under 18</td></tr><tr><td>Male/7 Years</td></tr><tr><td>Female/5 Years.</td></tr>    
+                </tr>
+                </table>
+            </section>
+        </aritcle>
+        <aside>
+            <h2>SUMMARY </h2>
+            <p><span>Age:</span>Always use: (30, 35, 40, 45, 50). </p>
+            <p><span>Voting Status:</span>YES </p>
+            <p><span>Children:</span>2 Children (Male – 17 years, Female – 15 years) always under 18 </p>
+            <p><span>Company staff:</span>101-500 or 501-1000 </p>
+            <p><span>Company:</span>Worldwide </p>
+            <p><span>Company revenue:</span>$5 Million $9.99 Million </p>
+        </aside>
+        <script src="toogleVisibility"></script>
+    </main>
+    <footer>I made this</footer>
+</body>
+</html>
